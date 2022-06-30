@@ -4,9 +4,9 @@ public static void main(String[] args)
  {
     int year = 2004;
     boolean leap = false;
-    if (year % 4 == 0) 
+    if (year % 4 == 0) // if statement
 	{
-      if (year % 100 == 0)
+      if (year % 100 == 0)  
 	  {
         if (year % 400 == 0)
           leap = true;
@@ -21,8 +21,8 @@ public static void main(String[] args)
       leap = false;
 
     if (leap)
-      System.out.println(year + " is a leap year.");
+      System.out.println(year + " is a leap year.");  // to print statement
     else
-      System.out.println(year + " is not a leap year.");
+      System.out.println(year + " is not a leap year.");  // to print statement
   }
 }
