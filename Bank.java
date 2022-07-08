@@ -22,9 +22,9 @@ int interest(){
 }  
 class Rate{  //Rate class to create objects and call the methods  
 public static void main(String args[]){  
-SBI a=new SBI();  
-ICICI b=new ICICI();  
-AXIS c=new AXIS();  
+SBI a=new SBI();  // create object of SBI 
+ICICI b=new ICICI();  // create object of ICICI
+AXIS c=new AXIS();   // create object of AXIS
 System.out.println("Rate of Interest of SBI: "+a.interest());  
 System.out.println("Rate of Interest of ICICI: "+b.interest());  
 System.out.println("Rate of Interest of AXIS: "+c.interest());  
